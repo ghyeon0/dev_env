@@ -1,4 +1,4 @@
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -42,7 +42,7 @@ cask "visual-studio-code"
 cask "vnc-viewer"
 cask "webstorm"
 cask "zeplin"
-cask "caskroom/fonts/font-d2coding"
+cask "homebrew/cask-fonts/font-d2coding"
 
 mas "Xcode", id: 497799835
 mas "Slack", id: 803453959
@@ -51,3 +51,4 @@ mas "KakaoTalk", id: 869223134
 mas "The Unarchiver", id: 425424353
 mas "한컴오피스 한글 2014 VP 뷰어", id: 416746898
 mas "Magnet", id: 441258766
+mas "Keynote", id: 409183694
