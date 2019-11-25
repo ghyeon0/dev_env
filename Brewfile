@@ -42,6 +42,7 @@ cask "visual-studio-code"
 cask "vnc-viewer"
 cask "webstorm"
 cask "zeplin"
+cask "vlc"
 cask "homebrew/cask-fonts/font-d2coding"
 
 mas "Xcode", id: 497799835
