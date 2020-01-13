@@ -42,7 +42,7 @@ cask "vnc-viewer"
 cask "webstorm"
 cask "zeplin"
 cask "vlc"
-cask "homebrew/cask-fonts/font-d2coding"
+cask "font-d2coding"
 
 mas "Xcode", id: 497799835
 mas "Slack", id: 803453959
