@@ -1,28 +1,37 @@
-tap "homebrew/cask-fonts"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "automake"
-brew "mas"
+brew "awscli"
 brew "cmake"
 brew "cppcheck"
+brew "ec2-api-tools"
 brew "git"
+brew "git-flow-avh"
 brew "git-lfs"
 brew "go"
+brew "icu4c"
 brew "libelf"
+brew "libpq"
+brew "mas"
 brew "mysql"
 brew "neovim"
 brew "nmap"
-brew "node@12"
+brew "nvm"
+brew "pkg-config"
 brew "python"
 brew "wget"
+brew "yarn"
 brew "zsh"
 brew "zsh-completions"
 cask "android-studio"
 cask "dashlane"
 cask "datagrip"
+cask "docker"
 cask "dozer"
+cask "font-d2coding"
 cask "goland"
 cask "google-chrome"
 cask "gswitch"
@@ -34,22 +43,19 @@ cask "macs-fan-control"
 cask "mysqlworkbench"
 cask "postman"
 cask "pycharm"
-cask "rstudio"
 cask "seafile-client"
 cask "typora"
 cask "visual-studio-code"
+cask "vlc"
 cask "vnc-viewer"
 cask "webstorm"
 cask "zeplin"
-cask "vlc"
-cask "font-d2coding"
-
-mas "Xcode", id: 497799835
-mas "Slack", id: 803453959
+mas "Between", id: 1320741520
+mas "Hancom Office HWP 2014 VP Viewer", id: 416746898
 mas "iStatistica", id: 1025822138
 mas "KakaoTalk", id: 869223134
-mas "The Unarchiver", id: 425424353
-mas "한컴오피스 한글 2014 VP 뷰어", id: 416746898
-mas "Magnet", id: 441258766
 mas "Keynote", id: 409183694
-mas "Between", id: 1320741520
+mas "Magnet", id: 441258766
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
