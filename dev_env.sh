@@ -5,10 +5,6 @@
 # install via brew
 brew bundle --file=./Brewfile
 
-# install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-cp ./zsh/.zshrc ~/.zshrc
-
 # install vscode extensions
 sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 code --install-extension formulahendry.auto-close-tag
@@ -57,3 +53,7 @@ nvim +PluginInstall +qall
 
 ~/.config/nvim/bundle/youcompleteme/install.py
 pip3 install neovim
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cp ./zsh/.zshrc ~/.zshrc
